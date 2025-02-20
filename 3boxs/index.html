@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>BOGO Offer UI</title>
+    
+    
+  </head>
+  <body>
+    <h2>YAY! It's BOGO</h2>
+
+    <div class="container">
+      <div class="offer-box" onclick="toggleBox(this)">
+        <label>
+          <input type="radio" name="offer" />
+          1 Unit <span class="discount-badge">10% Off</span>
+        </label>
+        <p class="price">
+          $10.00 USD <span class="original-price">$24.00 USD</span>
+        </p>
+        <div class="options">
+          <p>
+            Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </p>
+        </div>
+      </div>
+
+      <div class="offer-box" onclick="toggleBox(this)">
+        <span class="most-popular">MOST POPULAR</span>
+        <label>
+          <input type="radio" name="offer" />
+          2 Unit <span class="discount-badge">20% Off</span>
+        </label>
+        <p class="price">
+          $18.00 USD <span class="original-price">$24.00 USD</span>
+        </p>
+        <div class="options">
+          <p>
+            #1 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </p>
+          <p>
+            #2 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </p>
+        </div>
+      </div>
+
+      <div class="offer-box" onclick="toggleBox(this)">
+        <label>
+          <input type="radio" name="offer" />
+          3 Unit <span class="discount-badge">30% Off</span>
+        </label>
+        <p class="price">
+          $24.00 USD <span class="original-price">$24.00 USD</span>
+        </p>
+        <div class="options">
+          <p>
+            #1 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </p>
+          <p>
+            #2 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </p>
+          <p>
+            #3 Size:
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            Colour:
+            <select>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer">
+        Free Delivery <span class="total">Total: $18.00</span>
+      </div>
+
+      <button class="button">+ Add to Cart</button>
+      <p class="powered-by">@ Powered by Pumper</p>
+    </div>
+
+   
+  </body>
+  <script src="script.js"></script>
+</html>
